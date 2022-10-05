@@ -70,11 +70,37 @@ body {
 }
 
 .corpo {
-  background-image: url(../imagens/1.PAGE_1.png);
+  background-image: url(../imagens/foto1.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
+}
+.corpo .entre-aqui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  padding-top: 300px;
+  padding-left: 340px;
+  padding-right: 50px;
+}
+
+.corpo .entre-aqui h1 {
+  font-family: 'Jockey One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+
+}
+
+.corpo .entre-aqui h2 {
+  font-family: 'Jockey One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
 }
 
 .corpo .entre-aqui button {
@@ -84,12 +110,12 @@ body {
   height: 92px;
   border: none;
   border-radius: 10px;
-  margin: 320px 0px 0px 410px;
-  font-family: 'joker one';
+  font-family: 'Jockey One', sans-serif;
   font-size: 20px;
+  margin-left: 64px;
 }
 .corpo .logos{
-  padding: 0px 0px 100px 800px;
+  padding: 0px 0px 100px 900px;
 }
 
 .corpo .logos a img {
