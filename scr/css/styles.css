@@ -40,21 +40,6 @@ body {
   font-family: 'joker one';
 }
 
-.cabecalho .pesquisa {
-  background-color: #1c2045;
-  color: #fff;
-  width: 413px;
-  height: 35px;
-  border-style: none;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  font-family: 'Karantina', cursive;
-  font-style: normal;
-  font-size: 20px;
-  margin: 31px 150px 29px 130px;
-}
-
 .cabecalho .cadastro button {
   background-color: #83519a;
   border: none;
@@ -103,17 +88,7 @@ body {
   line-height: 45px;
 }
 
-.corpo .entre-aqui button {
-  color: #fff;
-  background-color: #460fa0;
-  width: 267px;
-  height: 92px;
-  border: none;
-  border-radius: 10px;
-  font-family: 'Jockey One', sans-serif;
-  font-size: 20px;
-  margin-left: 64px;
-}
+
 .corpo .logos{
   padding: 0px 0px 100px 900px;
 }

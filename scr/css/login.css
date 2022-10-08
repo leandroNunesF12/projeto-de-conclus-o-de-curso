@@ -42,21 +42,6 @@ body {
   font-family: 'Jockey One', sans-serif;
 }
 
-.cabecalho .pesquisa {
-  background-color: #1c2045;
-  color: #fff;
-  width: 413px;
-  height: 35px;
-  border-style: none;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  font-family: 'Karantina', cursive;
-  font-style: normal;
-  font-size: 20px;
-  margin: 50px 0px 50px 180px;
-}
-
 main {
   background-image: url(../imagens/2.PAGE_2.png);
   width: 100vw;
