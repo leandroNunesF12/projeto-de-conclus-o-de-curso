@@ -25,14 +25,30 @@ body {
   padding-top:5px;
 }
 
-.cabecalho .botoes .links {
-  width: 117px;
-  height: 100px;
-  top: 5px;
-  left: 22px;
-  border: none;
-  border-radius: 3px;
-  margin: 0px 0px 20px 0px;
+.cabecalho .botoes a {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.cabecalho .botoes a img {
+  margin-left: 5px;
+}
+
+.cabecalho .botoes a p {
+  margin-top: 2px;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
 }
 
 .cabecalho .botoes button img {
@@ -130,12 +146,12 @@ main {
 }
 
 .abrirConfirmar > div {
-  width: 400px;
-  height: 200px;
+  width: 570px;
+  height: 290px;
   position: relative;
   margin: 10% auto;
-  padding: 15px 20px;
-  background: #fff;
+  padding: 0;
+  background: #1f0e3a;
 }
 
 .fechar {
@@ -145,10 +161,38 @@ main {
   top: -20px;
   text-align: center;
   line-height: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-right: 20px;
   background: #ff4545;
   border-radius: 50%;
   font-size: 16px;
   color: #8d0000;
+}
+
+.faixas {
+  background-color: #460fa0;
+  width: 100%;
+  height: 40px;
+}
+
+.textos {
+  font-family: 'Jockey One', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 5px 0px 5px;
+}
+
+.botaoCadastrar {
+  width: 100px;
+  height: 40px;
+  background-color: #460fa0;
+  border: none;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 0px 0px 200px;
 }

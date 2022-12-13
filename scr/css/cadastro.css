@@ -25,14 +25,30 @@ body {
   padding-top:5px;
 }
 
-.cabecalho .botoes .links {
-  width: 117px;
-  height: 100px;
-  top: 5px;
-  left: 22px;
-  border: none;
-  border-radius: 3px;
-  margin: 0px 0px 20px 0px;
+.cabecalho .botoes a {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.cabecalho .botoes a img {
+  margin-left: 5px;
+}
+
+.cabecalho .botoes a p {
+  margin-top: 2px;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
 }
 
 .cabecalho .botoes button img {
