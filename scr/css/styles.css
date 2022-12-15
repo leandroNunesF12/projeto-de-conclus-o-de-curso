@@ -221,7 +221,7 @@ body {
   grid-template-rows: 2rem 4fr 1fr;
   cursor: pointer;
   transition: background-color 1s ease 0s;
-  margin-top: 2rem !important;
+  margin-top: 2rem;
   margin-left: 19px;
 }
 
