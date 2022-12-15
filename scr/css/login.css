@@ -57,6 +57,31 @@ body {
   font-family: 'Jockey One', sans-serif;
 }
 
+.cabecalho .cadastrese {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  margin-right: 15px;
+}
+
+.cabecalho .cadastrese a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
 main {
   background-image: url(../imagens/2.PAGE_2.png);
   width: 100vw;
