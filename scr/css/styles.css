@@ -57,6 +57,20 @@ body {
   font-family: 'Jockey One', sans-serif;
 }
 
+.corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.escopo {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .corpo .noticias {
   margin: 0px auto;
   width: auto;
@@ -183,3 +197,89 @@ body {
   line-height: 2.2rem;
 }
  
+.corpo .noticia_com_info {
+  display: flex;
+      flex-direction: column;
+      margin-bottom: 4rem;
+      min-width: 100%;
+      max-width: 700px;
+}
+
+.corpo .noticia_com_info a {
+  text-decoration: none;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura {
+  width: 96%;
+  height: 250px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 10px -2px;
+  display: grid;
+  align-content: start;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: 2rem 4fr 1fr;
+  cursor: pointer;
+  transition: background-color 1s ease 0s;
+  margin-top: 2rem !important;
+  margin-left: 19px;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura picture {
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: overlay;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura .noti_textos {
+  grid-area: 1 / 8 / -1 / -1;
+            padding: 1rem 0px;
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            border-bottom: 5px solid rgb(165, 165, 165);
+            border-top-color: rgb(165, 165, 165);
+            border-right-color: rgb(165, 165, 165);
+            border-left-color: rgb(165, 165, 165);
+}
+
+.corpo .noticia_com_info a .noti_com_leitura .noti_textos div span {
+  margin: 1rem 2rem;
+  color: rgb(165, 165, 165);
+  font-family: Gotham Bold sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura .noti_textos div h4 {
+  margin: 1rem 2rem;
+  font-family: Gotham Black sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  border-bottom: 1rem;
+  color: rgb(22, 22, 22);
+  transition: color 0.1s ease 0s;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura .noti_textos div p {
+  margin: 1rem 2rem;
+  font-family: Gotham Medium sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  color: rgb(84, 84, 84);
+  transition: color 1s ease 0s;
+}
+
+.corpo .noticia_com_info a .noti_com_leitura .noti_textos .data span {
+  margin: 0px 2rem;
+  font-size: 1.2rem;
+  font-family: gotham Mediumsans-serif;
+  align-self: end;
+  color: rgb(22, 22, 22);
+  transition: color 0.1s ease 0s;
+  grid-column: 12 / -1;
+  text-transform: capitalize;
+}
