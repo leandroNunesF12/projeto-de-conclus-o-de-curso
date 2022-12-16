@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +12,19 @@
   <link rel="stylesheet" href="../css/modal.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https: //fonts.googleapis.com/css2? family= Karantina & display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family= Karantina & display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
   <header class="cabecalho">
     <div class="botoes">
-     <a href="../../index.html"> <img class="logo" src="../imagens/CO.GA (New Logo).png" alt="logo co.ga"> </a>
+      <a href="../../index.html"> <img class="logo" src="../imagens/CO.GA (New Logo).png" alt="logo co.ga"> </a>
       <a href="../pages/esports.html" class="link">
         <img src="../imagens/thumbnail_32.E-SPORTS.png" alt="trofeu" />
         <p>E-sport</p>
@@ -39,7 +41,7 @@
     </button>
   </header>
   <main class="corpo">
-    <form class="form" action="#">
+    <form class="form" action="testLogin.php" method="POST">
       <div class="grupo">
         <label>Usuário</label>
         <input type="text" name="usuario">
@@ -55,11 +57,11 @@
       </div>
 
       <div class="grupo">
-        <button type="submit">
-          <a href="#">Confirmar</a>
-        </button>
+
+        <button type="submit" name="submit" id="submit">Confirmar</button>
       </div>
     </form>
   </main>
 </body>
+
 </html>

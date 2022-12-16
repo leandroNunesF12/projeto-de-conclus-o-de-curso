@@ -124,22 +124,7 @@ body {
   margin-left: auto;
 }
 
-.corpo .div_artigo h1 {
-  color: rgb(20, 167, 160);
-  font-size: 4.2rem;
-  line-height: 4.8rem;
-  margin-bottom: 1rem;
-  font-family: Gotham Black sans-serif;
-  max-width: 95%;
-  margin: 0px;
-  padding: 0px;
-  font-weight: normal;
-}
-
-.corpo .div_artigo p {
-  font-size: 2rem;
-  line-height: 3.2rem;
-  margin-bottom: 2.2rem;
-  font-weight: 300;
-  font-family: 'Gotham Book', sans-serif;
+u {
+  color: white;
+  font-size: 60px;
 }

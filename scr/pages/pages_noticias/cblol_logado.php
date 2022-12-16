@@ -48,19 +48,18 @@
           <p>Games</p>
         </a>
 
-        <a href="./scr/pages/sair.php" class="link" class="btn btn-danger me-5">
-          Sair
-        </a>
+          <a href="./scr/pages/sair.php" class="link" class="btn btn-danger me-5">
+            Sair
+          </a>
+          
       </div>
 
-      <div class="bailao">
-        <button type="button" class="cadastrese">
-          <a href="../cadastro.html">Cadastre-se</a>
-        </button>
-        <button type="button" class="login">
-          <a href="../login.html">Login</a>
-        </button>
-      </div>
+      <div class="nome_usuario">
+          <?php
+            echo "<u>$logado</u>";
+            ?>
+        </div>
+
     </header>
 
     <main class="corpo">
