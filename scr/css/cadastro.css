@@ -25,7 +25,7 @@ body {
   padding-top:5px;
 }
 
-.cabecalho .botoes a {
+.cabecalho .botoes .link {
   background-color: #83519a;
   display: flex;
   flex-direction: row;
@@ -38,11 +38,11 @@ body {
   border-radius: 10px;
 }
 
-.cabecalho .botoes a img {
+.cabecalho .botoes .link img {
   margin-left: 5px;
 }
 
-.cabecalho .botoes a p {
+.cabecalho .botoes .link p {
   margin-top: 2px;
   color: white;
   font-family: 'Jockey One';
